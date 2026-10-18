@@ -3,9 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36414.22 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "algorithms", "algorithms", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{CE7C0B54-E3A5-4549-94D5-C115CB5DAC40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearSearch", "LinearSearch\LinearSearch.csproj", "{B27A53F5-96BD-4AAD-8B26-F9C636FB4749}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE7C0B54-E3A5-4549-94D5-C115CB5DAC40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE7C0B54-E3A5-4549-94D5-C115CB5DAC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE7C0B54-E3A5-4549-94D5-C115CB5DAC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE7C0B54-E3A5-4549-94D5-C115CB5DAC40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B27A53F5-96BD-4AAD-8B26-F9C636FB4749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B27A53F5-96BD-4AAD-8B26-F9C636FB4749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B27A53F5-96BD-4AAD-8B26-F9C636FB4749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B27A53F5-96BD-4AAD-8B26-F9C636FB4749}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CE7C0B54-E3A5-4549-94D5-C115CB5DAC40} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{B27A53F5-96BD-4AAD-8B26-F9C636FB4749} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4F216FBD-718A-4ACC-B204-E8CC4E1BC90C}
