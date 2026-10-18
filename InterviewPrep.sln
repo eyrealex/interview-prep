@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearSearch", "LinearSearc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionSort", "SelectionSort\SelectionSort.csproj", "{B241814D-5389-4329-A00F-ECB5BBB903A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionSort", "InsertionSort\InsertionSort.csproj", "{2559B98C-4856-4D53-9F39-63DF23218364}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{B241814D-5389-4329-A00F-ECB5BBB903A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B241814D-5389-4329-A00F-ECB5BBB903A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B241814D-5389-4329-A00F-ECB5BBB903A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2559B98C-4856-4D53-9F39-63DF23218364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2559B98C-4856-4D53-9F39-63DF23218364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2559B98C-4856-4D53-9F39-63DF23218364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2559B98C-4856-4D53-9F39-63DF23218364}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 		{CE7C0B54-E3A5-4549-94D5-C115CB5DAC40} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{B27A53F5-96BD-4AAD-8B26-F9C636FB4749} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{B241814D-5389-4329-A00F-ECB5BBB903A0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{2559B98C-4856-4D53-9F39-63DF23218364} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4F216FBD-718A-4ACC-B204-E8CC4E1BC90C}
