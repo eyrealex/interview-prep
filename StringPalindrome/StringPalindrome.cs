@@ -1,4 +1,5 @@
-﻿namespace StringPalindrome
+﻿
+namespace StringPalindrome
 {
     internal class StringPalindrome
     {
